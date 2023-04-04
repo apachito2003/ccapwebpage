@@ -13,7 +13,7 @@ echo $valor;
 echo "<br>";
 */
 if ($conn->connect_error) {
-  die("Conexión fallida: " . $conn->connect_error);
+  die("Conexión a BD fallida: " . $conn->connect_error);
 }
 
 /*$sql = "SELECT * FROM dictamenes WHERE numeroDictamen = '$valor'";
